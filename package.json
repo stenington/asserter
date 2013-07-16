@@ -6,15 +6,15 @@
   "main": "index.js",
   "dependencies": {
     "express": "~3.3.4",
-    "mocha": "~1.12.0",
-    "should": "~1.2.2",
-    "supertest": "~0.7.1",
     "openbadges-validator": "0.0.21"
   },
   "devDependencies": {
-    "mocha": "~1.9.0"
+    "mocha": "~1.12.0",
+    "should": "~1.2.2",
+    "supertest": "~0.7.1"
   },
   "scripts": {
+    "start": "./bin/asserter.js",
     "test": "./node_modules/.bin/mocha --reporter spec --check-leaks test/*.test.js"
   },
   "author": "Mike Larsson",
